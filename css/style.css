@@ -6,7 +6,7 @@
   font-family: Brush Script MT;
 }
 body {
-  background-color: #CDF1EB;
+  background-color: #3DBFE7;
 }
 .buttons {
   text-align: center;
@@ -16,6 +16,10 @@ body {
   margin-top: 40px;
   color: black;
   font-size: 30px;
+}
+#searchbox {
+  display:flex;
+  justify-content:center;
 }
 .Search {
   margin: 40px;
@@ -38,7 +42,7 @@ input::-webkit-input-placeholder {
   margin-left: 80px;
 }
 .border {
-  border: solid 10px #CDF1EB;
+  border: solid 10px #3DBFE7;
   padding: 10px;
   text-decoration: none;
 }
