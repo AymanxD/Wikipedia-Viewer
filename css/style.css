@@ -24,14 +24,12 @@ body {
 .Search {
   margin: 40px;
   background-color: #E4C8FF;
-  width: 10%;
+  width: 200px;
   background-image: url("http://www.clipartkid.com/images/775/search-icon-clip-art-at-clker-com-vector-clip-art-online-royalty-643l5L-clipart.png");
   background-size: 25px;
   background-position: 10px 5px;
   background-repeat: no-repeat;
-}
-input::-webkit-input-placeholder {
-  color: black !important;
+  padding-left: 40px;
 }
 #results {
   background-color: #F2E7FD;
