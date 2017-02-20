@@ -16,7 +16,7 @@ $(document).ready(function(){
       type:'POST',
       headers: { 'Api-User-Agent': 'Example/1.0' },
       success: function(data) {
-        $("#results").html('');
+        $("#results").html(''); // Delete's prior search entries
         var html = '';
         for (i=0; i < data[1].length; i++){
            html += "<a id='Nohighlight' target='_blank' href=" + data[3][i] + "><div class='border'>" + data[1][i] + "</br></br> " + data[2][i] + "</br></br></div></a>";

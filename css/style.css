@@ -3,10 +3,16 @@
   font-size: 60px;
   margin-top: 40px;
   color: black;
-  font-family: Brush Script MT;
+  font-family: Sansita;
 }
+
 body {
-  background-color: #3DBFE7;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -5000;
+  background: url("http://res.cloudinary.com/aymanxd/image/upload/v1487554817/books_ar2yda.jpg") fixed;
 }
 .buttons {
   text-align: center;
@@ -16,6 +22,12 @@ body {
   margin-top: 40px;
   color: black;
   font-size: 30px;
+  padding:10px;
+  border: solid 1px black;
+  border-radius: 10px;
+}
+.Random:hover{
+  border:solid 1px white;
 }
 #searchbox {
   display:flex;
@@ -23,7 +35,7 @@ body {
 }
 .Search {
   margin: 40px;
-  background-color: #E4C8FF;
+  background-color: white;
   width: 200px;
   background-image: url("http://www.clipartkid.com/images/775/search-icon-clip-art-at-clker-com-vector-clip-art-online-royalty-643l5L-clipart.png");
   background-size: 25px;
@@ -32,7 +44,6 @@ body {
   padding-left: 40px;
 }
 #results {
-  background-color: #F2E7FD;
   font-size: 18px;
 }
 .borderborder {
@@ -40,15 +51,25 @@ body {
   margin-left: 80px;
 }
 .border {
-  border: solid 10px #3DBFE7;
+  background-color: rgba(0, 0, 0, 0.75);
+  color:white;
   padding: 10px;
+  margin: 20px;
   text-decoration: none;
 }
 .border:hover {
-  border-left-color: #E4C8FF;
-  border-right-color: #E4C8FF;
+  font-weight: bold;
+  font-size: 24px;
 }
 #Nohighlight {
   text-decoration: none;
   color: black;
+}
+
+h3{
+  text-align: center;
+  color: black;
+  font-weight: bold;
+  font-family: Sansita;
+  margin-top: 40px;
 }
